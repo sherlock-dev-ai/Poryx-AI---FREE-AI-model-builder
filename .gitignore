@@ -1,0 +1,39 @@
+# Credentials & Environment Secrets (NEVER COMMIT)
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.token
+*.secret
+
+# Source Code & Proprietary Core
+backend/
+src/
+*.py
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Local Databases, Artifacts & Datasets
+*.db
+*.sqlite
+*.sqlite3
+data/
+datasets/
+models/
+artifacts/
+runtime.json
+
+# Temporary & Log files
+*.log
+logs/
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+desktop.ini
